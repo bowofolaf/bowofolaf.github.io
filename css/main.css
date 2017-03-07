@@ -5,7 +5,36 @@ main {
     display: flex;
 }
 
+nav {
+    background: black;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: white;
+}
+
 header {
+    background: black;
     justify-content: space-between;
     padding: 30px;
+}
+
+header h1 {
+    color: darkseagreen;
+}
+
+header small {
+    color: lightgrey;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
 }
