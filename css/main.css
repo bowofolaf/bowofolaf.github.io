@@ -1,0 +1,11 @@
+header,
+nav,
+footer,
+main {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    padding: 30px;
+}
