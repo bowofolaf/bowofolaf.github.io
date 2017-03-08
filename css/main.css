@@ -1,7 +1,9 @@
 header,
 nav,
 footer,
-main {
+main,
+section,
+div {
     display: flex;
 }
 
@@ -26,7 +28,7 @@ header h1 {
 }
 
 header small {
-    color: lightgrey;
+    color: silver;
 }
 
 main {
@@ -37,4 +39,44 @@ footer {
     background: black;
     color: white;
     padding: 20px;
+}
+
+div.key, div.value {
+    color: dimgray;
+    font-size: 25px;
+}
+
+div.key {
+    justify-content: flex-end;
+    width: 50%;
+    font-weight: bold;
+}
+
+div.value {
+    margin-left: 25px;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.my-row {
+
+}
+
+.my-section {
+    background-color: #fff;
+    color: black;
+    flex-direction: column;
+    height: 100vh;
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+    padding: 100px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.my-section.light {
+    background-color: silver;
 }
